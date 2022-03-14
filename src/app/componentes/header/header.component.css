@@ -1,0 +1,48 @@
+.header{
+  width: 100%;
+  min-height: 0.1rem;
+  opacity: var(--blanco);
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 1em 1em;
+  margin: 0 0 0 0;
+  position: relative;
+  z-index: 2;
+
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: start;
+}
+.header .h1{
+  color: rgb(10, 6, 1);
+  font-family: var(--tipo-principal);
+  font-size: 2em;
+  margin-bottom: 0.1em;
+  margin-right: 20em;
+}
+.header .h1 .a{
+  align-items: right;
+  color: red;
+}
+.header .nav{
+  width: 15em;
+
+}
+.header .nav .ul{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.1em;
+  margin-top: 1rem;
+}
+.header .nav .li{
+  color: rgb(10, 6, 1);
+  margin: 0 0;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 3em;
+  margin-bottom: 3em;
+  margin-left: 1em;
+}

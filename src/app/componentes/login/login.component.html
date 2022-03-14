@@ -1,0 +1,24 @@
+<div class="que-nda">
+  <div class="form-container">
+    <form (ngSubmit)="onRegister()" #myForm="ngForm">
+      <h1> Login </h1>
+      <div class="input-group" id="fuck">
+        <label for="name" class="bueno">Nombre</label>
+        <input type="text" class="grid" name="name" required id="name" [(ngModel)]="register.name"/>
+        <p>Mensaje Error</p>
+      </div>
+      <div class="input-group" id="fuck">
+        <label for="email" class="bueno">Email</label>
+        <input type="text" class="grid" name="email" required id="email" [(ngModel)]="register.email"/>
+        <p>Mensaje Error</p>
+      </div>
+      <div class="input-group" id="fuck">
+        <label for="password" class="bueno">Password</label>
+        <input type="text" class="grid" name="password" required id="password" [(ngModel)]="register.password"/>
+        <p>Mensaje Error</p>
+      </div>
+      <button type="submit" [disabled]="myForm.invalid" class="button">Registrar</button>
+    </form>
+  </div>
+</div>
+
